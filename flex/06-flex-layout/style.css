@@ -25,3 +25,37 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+/* SOLUTION */
+body{
+  display: flex;
+  flex-direction: column;
+}
+a{
+  text-decoration: none;
+  color:#111;
+}
+li{
+  list-style-type: none;
+}
+ul{
+  display: flex;
+  gap: 25px;
+}
+.footer,
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding:16px;
+}
+.footer{
+  background: #eee;
+  
+}
+.content{
+  display: flex;
+  flex:1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
